@@ -29,8 +29,13 @@ async def _reload():
 
     from python.helpers import memory  # type: ignore
     import initialize  # type: ignore
+    from agent import AgentContext  # type: ignore
 
-    agent = initialize.initialize_agent()
+    # Build a minimal Agent from config so Memory API has the context it expects
+    config = initialize.initialize_agent()
+    ctx = AgentContext(config)
+    agent = ctx.agent0
+
     await memory.Memory.reload(agent)
     print("Knowledge reloaded")
 
