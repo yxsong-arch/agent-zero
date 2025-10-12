@@ -9,6 +9,9 @@ To begin with Agent Zero, follow the links below for detailed guides on various 
 - **[Connectivity](connectivity.md):** Learn how to connect to Agent Zero from other applications.
 - **[Architecture Overview](architecture.md):** Understand the internal workings of the framework.
 - **[Prompt Injection Framework](prompt-injection-framework.md):** Taxonomy of prompt-injection techniques and defenses.
+- **[Prompt Injection Categories](prompt-injections/categories/prompt-injection-detection-overview.md):** Overview of injection categories and links.
+- **[Prompt Injection Detection](prompt-injections/detection/detection-overview.md):** Detection strategies and heuristics.
+- **[Prompt Injection Dataset](prompt-injections/dataset.md):** Dataset docs and CSV.
 - **[Contributing](contribution.md):** Learn how to contribute to the Agent Zero project.
 - **[Troubleshooting and FAQ](troubleshooting.md):** Find answers to common issues and questions.
 

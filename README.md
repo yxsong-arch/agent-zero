@@ -166,6 +166,9 @@ docker run -p 50001:80 agent0ai/agent-zero
 | [Contributing](./docs/contribution.md) | How to contribute |
 | [Troubleshooting](./docs/troubleshooting.md) | Common issues and their solutions |
 | [Prompt Injection Framework](./docs/prompt-injection-framework.md) | Taxonomy of prompt-injection techniques and defenses (imported from pr1m8/prompt-injections, MIT) |
+| [Prompt Injection Categories](./docs/prompt-injections/categories/prompt-injection-detection-overview.md) | Overview of injection categories (imported from pr1m8/prompt-injections, MIT) |
+| [Prompt Injection Detection](./docs/prompt-injections/detection/detection-overview.md) | Detection strategies and heuristics (imported from pr1m8/prompt-injections, MIT) |
+| [Prompt Injection Dataset](./docs/prompt-injections/dataset.md) | Dataset docs and CSV (imported from pr1m8/prompt-injections, MIT) |
 
 
 ## 🎯 Changelog
